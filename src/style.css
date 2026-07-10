@@ -57,4 +57,5 @@
 .purple .top { background-color: #6a0dad; }
 .cyan   .top { background-color: #00bcd4; }
 .red    .top { background-color: #e53935; }
-.pink   .top { background-color: #ec407a; }
+.pink   .top { background-color: hsl(340, 82%, 59%); }
+
