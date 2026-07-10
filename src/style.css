@@ -58,3 +58,12 @@
 .cyan   .top { background-color: #00bcd4; }
 .red    .top { background-color: #e53935; }
 .pink   .top { background-color: #ec407a; }
+
+
+.container1{
+  /* Colors for top halves */
+.purple .top { background-color: #af811e; }
+.cyan   .top { background-color: #b0cc31; }
+.red    .top { background-color: #1f0210; }
+.pink   .top { background-color: #6b7581; }
+}
