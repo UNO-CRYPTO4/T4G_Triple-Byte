@@ -1,58 +1,53 @@
-/* Header styling */
-.header {
-  background-color: brown; /* green header */
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  font-size: 1.5rem;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
+/* Header */
+.header{
+    background:rgb(97, 24, 6);
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:24px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Container styling */
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 40px;
+/* Containers */
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    margin:40px;
 }
 
-/* Box styling */
-.box {
-  width: 180px;
-  height: 140px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  font-family: Arial, sans-serif;
+/* Cards */
+.box{
+    width:240px;
+    height:140px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 2px 5px rgba(0,0,0,.15);
 }
 
-/* Top half (colored) */
-.box .top {
-  height: 50%;
+/* Top */
+.top{
+    height:70px;
 }
 
-/* Bottom half (white with text) */
-.box .bottom {
-  height: 50%;
-  background-color: #fff;
-  text-align: center;
-  padding: 10px;
+/* Bottom */
+.bottom{
+    padding:10px;
 }
 
-.box h3 {
-  margin: 0;
-  font-size: 1rem;
-  color: #333;
+.bottom h3{
+    margin:0;
+    font-size:18px;
 }
 
-.box p {
-  margin-top: 5px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #333;
+.bottom p{
+    margin-top:5px;
+    color:gray;
 }
 
+<<<<<<< HEAD
 /* Colors for top halves */
 .purple .top { background-color: #6a0dad; }
 .cyan   .top { background-color: #00bcd4; }
@@ -63,4 +58,21 @@
   /* Colors for top halves */
 .purple .top { background-color: #593175; }
 .cyan   .top { background-color: #032529; }
+=======
+/* Colours */
+.purple .top{
+    background:#8a2be2;
+}
+
+.cyan .top{
+    background:#00cfff;
+}
+
+.green .top{
+    background:#55cc55;
+}
+
+.brown .top{
+    background:#c8ab84;
+>>>>>>> b0e8cfcbc337bf2d393c35c240ed84cbad932dbc
 }
