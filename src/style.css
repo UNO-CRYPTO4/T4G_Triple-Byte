@@ -47,7 +47,6 @@
     color:gray;
 }
 
-<<<<<<< HEAD
 /* Colors for top halves */
 .purple .top { background-color: #6a0dad; }
 .cyan   .top { background-color: #00bcd4; }
@@ -58,7 +57,7 @@
   /* Colors for top halves */
 .purple .top { background-color: #593175; }
 .cyan   .top { background-color: #032529; }
-=======
+}
 /* Colours */
 .purple .top{
     background:#8a2be2;
@@ -74,5 +73,48 @@
 
 .brown .top{
     background:#c8ab84;
->>>>>>> b0e8cfcbc337bf2d393c35c240ed84cbad932dbc
+}
+
+/* Navigation Bar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#008000;
+    padding:15px 40px;
+}
+
+.logo{
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-links li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+/* Navigation Hover */
+.nav-links li a:hover{
+    color:yellow;
+}
+
+/* Card Hover */
+.box{
+    transition:0.3s ease;
+}
+
+.box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.3);
+    cursor:pointer;
 }
